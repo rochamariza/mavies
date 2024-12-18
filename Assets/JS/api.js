@@ -5,9 +5,3 @@ export async function fetchURL(query){
     return data
 }
 
-export async function imageFetch(url){
-    const response = await fetch(`https://image.tmdb.org/t/p/w185/${url}`)
-    const data = await response.json()
-    return data
-}
-
