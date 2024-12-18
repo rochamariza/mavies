@@ -27,3 +27,23 @@ header.header .header-container{
 header span{
     text-decoration: underline;
 }
+nav.nav-bar form{
+    margin-block: 30px;
+    display: flex;
+    gap: 10px;
+    
+}
+nav input[type="submit"]{
+    padding: 5px;
+    border-radius: 20px;
+    width: 100px;
+    border: none;
+}
+nav input[type="search"]{
+    border-radius: 20px;
+    width: 400px;
+    outline: none;
+    border: none;
+    text-align: center;
+    padding: 5px;
+}
